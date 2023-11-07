@@ -10,11 +10,12 @@ public class Main {
         stringList.add("りんご");
         stringList.add("バナナ");
         stringList.add("オレンジ");
+        stringList.add("ぶどう");
 
         // 特定の条件をチェック
         if (stringList.isEmpty()) {
             // 条件が満たされた場合、独自の例外をスロー
-            throw new CustomException("リストが空です。");
+            throw new CustomException("リストに記載されていません");
         }
 
         // リストの要素を表示
